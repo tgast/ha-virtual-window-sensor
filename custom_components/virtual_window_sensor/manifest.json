@@ -2,10 +2,10 @@
   "domain": "virtual_window_sensor",
   "name": "Virtual Window Sensor",
   "version": "1.0.0",
-  "documentation": "https://github.com/yourusername/virtual_window_sensor",
-  "issue_tracker": "https://github.com/yourusername/virtual_window_sensor/issues",
+  "documentation": "https://github.com/tgast/ha-virtual-window-sensor",
+  "issue_tracker": "https://github.com/tgast/ha-virtual-window-sensor/issues",
   "requirements": [],
-  "codeowners": ["@yourusername"],
+  "codeowners": ["@tgast"],
   "config_flow": true,
   "iot_class": "calculated",
   "integration_type": "device"
