@@ -1,0 +1,31 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Virtual Window Sensor einrichten",
+        "description": "Erstellt einen virtuellen Fenstersensor basierend auf Temperaturänderungen",
+        "data": {
+          "name": "Name",
+          "temperature_sensor": "Temperatursensor",
+          "temp_drop": "Temperaturschwelle (°C)",
+          "time_window": "Zeitfenster (Sekunden)"
+        }
+      }
+    },
+    "error": {
+      "sensor_not_found": "Temperatursensor nicht gefunden"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Virtual Window Sensor Optionen",
+        "description": "Konfiguriere die Erkennungsparameter",
+        "data": {
+          "temp_drop": "Temperaturschwelle (°C)",
+          "time_window": "Zeitfenster (Sekunden)"
+        }
+      }
+    }
+  }
+}

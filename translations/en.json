@@ -1,0 +1,44 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Set up Virtual Window Sensor",
+        "description": "Creates a virtual window sensor based on temperature changes",
+        "data": {
+          "name": "Sensor Name",
+          "temperature_sensor": "Temperature Sensor",
+          "temp_drop": "Temperature Threshold (°C)",
+          "time_window": "Time Window (seconds)"
+        },
+        "data_description": {
+          "name": "Choose a name for the virtual window sensor",
+          "temperature_sensor": "Select the temperature sensor for this room",
+          "temp_drop": "Temperature drop that indicates an open window (default: 0.3°C)",
+          "time_window": "Time window for temperature measurement (default: 30 seconds)"
+        }
+      }
+    },
+    "error": {
+      "sensor_not_found": "The selected temperature sensor was not found"
+    },
+    "abort": {
+      "already_configured": "This temperature sensor is already being used"
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Virtual Window Sensor Options",
+        "description": "Configure the detection parameters for the virtual window sensor",
+        "data": {
+          "temp_drop": "Temperature Threshold (°C)",
+          "time_window": "Time Window (seconds)"
+        },
+        "data_description": {
+          "temp_drop": "Temperature drop that indicates an open window",
+          "time_window": "Time window for temperature measurement"
+        }
+      }
+    }
+  }
+}
