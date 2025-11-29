@@ -1,0 +1,7 @@
+{
+  "name": "Virtual Window Sensor",
+  "render_readme": true,
+  "domains": ["binary_sensor"],
+  "iot_class": "Calculated",
+  "homeassistant": "2024.1.0"
+}
