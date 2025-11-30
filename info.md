@@ -1,29 +1,29 @@
 # Virtual Window Sensor
 
-Erstellt virtuelle Fenstersensoren basierend auf Temperaturänderungen - perfekt für Räume ohne physische Fenstersensoren!
+Creates virtual window sensors based on temperature changes to automatically turn off TRVs when windows are opened in rooms without physical window sensors.
 
 ## Features
 
-- ✅ Automatische Erkennung offener Fenster durch Temperaturüberwachung
-- ✅ Einfache UI-Konfiguration - kein YAML erforderlich
-- ✅ Konfigurierbare Schwellenwerte
-- ✅ Unterstützung für unbegrenzt viele Räume
-- ✅ Deutsche und englische Übersetzung
+- ✅ Automatic detection of open windows through temperature monitoring
+- ✅ Simple UI configuration - no YAML required
+- ✅ Configurable thresholds
+- ✅ Support for unlimited rooms
+- ✅ German and English translation
 
 ## Installation
 
-1. HACS → Integrationen → ⋮ → Benutzerdefinierte Repositories
+1. HACS → Integrations → ⋮ → Custom repositories
 2. URL: `https://github.com/tgast/ha-virtual-window-sensor`
-3. Kategorie: Integration
-4. Installieren und Home Assistant neu starten
+3. Category: Integration
+4. Install and restart Home Assistant
 
-## Verwendung
+## Usage
 
-Nach der Installation:
-1. Einstellungen → Geräte & Dienste → Integration hinzufügen
-2. "Virtual Window Sensor" suchen
-3. Temperatursensor auswählen
-4. Parameter anpassen
-5. Fertig!
+After installation:
+1. Settings → Devices & Services → Add Integration
+2. Search for "Virtual Window Sensor"
+3. Select temperature sensor
+4. Adjust parameters
+5. Done!
 
-Perfekt für automatische Heizungssteuerung beim Lüften! 🔥💰
+Perfect for automatic heating control when ventilating! 🔥💰
